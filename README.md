@@ -1,4 +1,4 @@
-# 📗 AgendaBarbero
+# 📗 AdminBibliotecaApp
 
 Aplicación Android desarrollada con **Kotlin** y **Jetpack Compose** para gestionar el control de libros en una biblioteca.
 
