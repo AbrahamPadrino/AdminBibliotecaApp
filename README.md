@@ -80,19 +80,18 @@ AdminBibliotecaApp/
 |   |   |   |            ├── views/
 |   |   |   |            └── MainActivity.xml
 │   │   │   └── res/
-
-**app:** Es el módulo principal que contiene todo el código y los recursos de la aplicación.  
-    **src:** La carpeta raíz del código fuente.  
-        **main:** El código y los recursos principales de la aplicación.  
-            **java/com/example/adminbibliotecaapp:** Aquí es donde vive todo el código fuente Kotlin. Está organizado en paquetes según la funcionalidad:  
-                **viewmodels:** Contiene las clases ViewModel como LibroViewModel.kt. Su función es actuar como intermediario entre la UI (Vistas) y la lógica de negocio/datos (Modelos).  
-                **models:** Define las clases de datos (data class) que representan los objetos de la aplicación (ej. DataLibro, DataAutor).  
-                **network:** Contiene el código relacionado con las operaciones de red, como la configuración de Retrofit (RetrofitClient.kt) y la definición de los endpoints de la API (WebService.kt).  
-                **response:** Define las clases de datos que modelan la estructura de las respuestas JSON que recibes de la API.  
-                **views o ui:** Aunque no se muestra un archivo de esta carpeta, es donde deberían estar las vistas o pantallas (Composables) de Jetpack Compose, organizadas por screens (pantallas completas) y components (elementos reutilizables).  
-            **res:** Almacena todos los recursos de la aplicación que no son código.  
-                **drawable:** Iconos, imágenes y otros elementos gráficos.  
-                **mipmap:** Los iconos de la aplicación para distintas densidades de pantalla.  
-                **values:** Archivos XML que definen colores, textos (strings) y el tema de la aplicación.
 ```
+**app:** Es el módulo principal que contiene todo el código y los recursos de la aplicación.  
+**src:** La carpeta raíz del código fuente.  
+**main:** El código y los recursos principales de la aplicación.  
+**java/com/example/adminbibliotecaapp:** Aquí es donde vive todo el código fuente Kotlin. Está organizado en paquetes según la funcionalidad:  
+**viewmodels:** Contiene las clases ViewModel como LibroViewModel.kt. Su función es actuar como intermediario entre la UI (Vistas) y la lógica de negocio/datos (Modelos).  
+**models:** Define las clases de datos (data class) que representan los objetos de la aplicación (ej. DataLibro, DataAutor).  
+**network:** Contiene el código relacionado con las operaciones de red, como la configuración de Retrofit (RetrofitClient.kt) y la definición de los endpoints de la API (WebService.kt).  
+**response:** Define las clases de datos que modelan la estructura de las respuestas JSON que recibes de la API.  
+**views o ui:** Aunque no se muestra un archivo de esta carpeta, es donde deberían estar las vistas o pantallas (Composables) de Jetpack Compose, organizadas por screens (pantallas completas) y components (elementos reutilizables).  
+**res:** Almacena todos los recursos de la aplicación que no son código.  
+**drawable:** Iconos, imágenes y otros elementos gráficos.  
+**mipmap:** Los iconos de la aplicación para distintas densidades de pantalla.  
+**values:** Archivos XML que definen colores, textos (strings) y el tema de la aplicación.  
 ---
