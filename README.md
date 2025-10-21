@@ -63,7 +63,7 @@ El proyecto sigue el patrón **MVVM (Model-View-ViewModel)**, separando claramen
 ---
 
 ## 🗂️ Estructura del proyecto
-
+```plaintext
 AdminBibliotecaApp/
 ├── app/                                        
 │   ├── src/
@@ -94,5 +94,5 @@ AdminBibliotecaApp/
                 **drawable:** Iconos, imágenes y otros elementos gráficos.  
                 **mipmap:** Los iconos de la aplicación para distintas densidades de pantalla.  
                 **values:** Archivos XML que definen colores, textos (strings) y el tema de la aplicación.
-
+```
 ---
