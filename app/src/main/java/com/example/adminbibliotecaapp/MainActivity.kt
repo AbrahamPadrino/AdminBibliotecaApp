@@ -5,8 +5,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.adminbibliotecaapp.navigation.NavManager
 import com.example.adminbibliotecaapp.network.RetrofitClient
@@ -21,7 +23,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             AdminBibliotecaAppTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize()
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(top = 32.dp)
                 ) {
                     // inicializar la instancia de retrofit
                     val retrofit = RetrofitClient.webService
