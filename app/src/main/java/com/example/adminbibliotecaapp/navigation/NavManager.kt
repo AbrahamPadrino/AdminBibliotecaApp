@@ -8,6 +8,7 @@ import com.example.adminbibliotecaapp.viewmodels.BibliotecaViewModel
 import com.example.adminbibliotecaapp.views.AutoresView
 import com.example.adminbibliotecaapp.views.CategoriasView
 import com.example.adminbibliotecaapp.views.EditorialesView
+import com.example.adminbibliotecaapp.views.LibrosView
 import com.example.adminbibliotecaapp.views.LoginView
 import com.example.adminbibliotecaapp.views.MenuView
 import com.example.adminbibliotecaapp.views.PrestamosView
